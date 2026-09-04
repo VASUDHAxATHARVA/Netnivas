@@ -1,0 +1,6 @@
+{
+  "name": "Civic Unity - Community Gig Services",
+  "description": "Cooperative gig services and community platform for residential societies, featuring service booking, society camps, event meetups, and real-time tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

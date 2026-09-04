@@ -1,0 +1,50 @@
+<svg viewBox="0 0 800 800" width="800" height="800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="logo-badge-shadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="18" stdDeviation="30" flood-color="#0066D6" flood-opacity="0.09" />
+    </filter>
+  </defs>
+
+  <!-- Circular background badge -->
+  <circle cx="400" cy="365" r="215" fill="#F0F6FF" filter="url(#logo-badge-shadow)" />
+
+  <!-- Outer Blue Chevron Roof -->
+  <path
+    d="M 255 330 L 400 185 L 545 330"
+    stroke="#0066D6"
+    stroke-width="36"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- Apex and Left Joint Nodes (Darker Blue) -->
+  <circle cx="400" cy="185" r="18" fill="#0048A0" />
+  <circle cx="255" cy="330" r="18" fill="#0048A0" />
+
+  <!-- Emerald Green Accent Dots on Roof Arms -->
+  <circle cx="328" cy="258" r="8" fill="#00B875" />
+  <circle cx="472" cy="258" r="8" fill="#00B875" />
+
+  <!-- Emerald Green Shelter Loop -->
+  <path
+    d="M 300 360 L 400 260 L 505 365 C 532 392 536 430 514 462 C 496 488 466 525 435 525 C 418 525 400 515 385 500 L 300 415"
+    stroke="#00A86B"
+    stroke-width="36"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- Center Blue Donut Ring -->
+  <circle cx="400" cy="355" r="34" fill="#0066D6" />
+  <circle cx="400" cy="355" r="14" fill="#FFFFFF" />
+
+  <!-- NetNivas Wordmark -->
+  <text x="400" y="628" text-anchor="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-weight="900" font-size="68" letter-spacing="-1.5px">
+    <tspan fill="#111827">Net</tspan><tspan fill="#0066D6">Nivas</tspan>
+  </text>
+
+  <!-- Tagline -->
+  <text x="400" y="670" text-anchor="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-weight="700" font-size="16.5" fill="#64748B" letter-spacing="6.5px">
+    COMMUNITY &amp; SERVICES
+  </text>
+</svg>
